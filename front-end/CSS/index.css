@@ -1,0 +1,130 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0 auto;
+}
+a {
+	text-decoration: none;
+}
+#header {
+	width: 100%;
+}
+#header-top,#main-content  {
+	margin-left: 49.5px;
+	margin-right: 49.5px;
+}
+#logo a img {
+	margin-top: 58px;
+	margin-bottom: 58px;
+}
+#search {
+	margin-top: 90px;
+	
+}
+#search form input {
+	padding: 6px;
+  	margin-top: 8px;
+  	font-size: 17px;
+  	border: 1px solid #ccc;
+}
+#search form button {
+  	margin-top: 8px;
+  	margin-right: 16px;
+  	background: #ddd;
+  	font-size: 17px;
+  	border: none;
+  	cursor: pointer;
+	margin-left: -6px;
+    padding: 7px;
+    width: 35px;
+}
+#search form button:hover {
+	background-color: #ccc;
+}
+@media screen and (max-width: 600px) {
+  #search {
+    float: none;
+	}
+  }
+#contact {
+	margin-top: 100px;
+}
+#zalo,#phone {
+	text-align: center;
+	padding: 5px;
+	width: 177.94px;
+	margin-right: 30px;
+}
+#header-menu {
+	margin-left: 49.5px;
+}
+#footer {
+	margin-left: 53.25px;
+	margin-right: 53.25;
+}
+#footer-left,#footer-middle,#footer-right {
+	border-right: 1px solid #ccc;
+	padding: 5px;
+	height: 100%;
+}
+#title {
+	border-bottom: 2px solid #ccc;
+}
+#footer-content {
+	padding: 16px 8px 16px 8px;
+}
+#title h3,#footer-content h4,span {
+	font-weight: bold;
+}
+#footer-content form input {
+	width: 100%;
+	margin-bottom: 10px;
+}
+#copyright {
+	text-align: center;
+	color: white;
+	background-color: blueviolet;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+#project a h4 {
+	font-weight: bold;
+	color: #334862;
+	text-decoration: underline;
+}
+#project a h4:hover {
+	color: black;
+}
+.product-detail {
+	padding: 13.49px;
+}
+#products a h4 {
+	text-align: center;
+	font-weight: bold;
+	color: #334862;
+}
+#products a h4:hover {
+	color: black;
+}
+#products .product-detail {
+	border: 1px solid #ccc;
+	margin: 5px;
+}
+.product-name,.sdt {
+	padding: 10px;
+	text-align: center;
+}
+.product-name {
+	font-weight: bold;
+}
+#news {
+	border: 1px solid #ccc;
+	padding: 20px;
+}
+#news h4 {
+	text-align: center;
+	font-weight: bold;
+}
